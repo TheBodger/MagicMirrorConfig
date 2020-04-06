@@ -46,39 +46,46 @@ var config = {
 			position: "top_bar",
 		},
 		{
+			module: 'MMM-History',
+			position: 'bottom_left',
+			config: {
+				maxWidth: "300px"  // Increase to maximum px or 100% to stretch across mirror. See Examples above.
+			}
+		},
+		{
 			module: "clock",
 			position: "top_left",
 			config: {
-			displayType: "both",
+				displayType: "both",
 
 			}
 		},
 
 		{
 			module: "compliments",
-			position: "lower_third",
+			position: "upper_third",
 		},
 		{
 			module: "weather",
-			position: "top_center",
+			position: "top_right",
 			config: {
 				type: "current",
 				weatherProvider: "ukmetoffice",
 				apiBase: "http://datapoint.metoffice.gov.uk/public/data/val/wxfcs/all/json/",
-				locationID: 350153, //Ascot http://datapoint.metoffice.gov.uk/public/data/val/wxfcs/all/json/sitelist?key=2acecf0e-fb12-4870-b1e0-975b728172f7
-				apiKey: "2acecf0e-fb12-4870-b1e0-975b728172f7", // met office datapoints, neilstjscott account
+				locationID: 350153, //Ascot 
+				apiKey: "met office datapoints key", // met office datapoints key, read instructions in weather as to how to get this
 			}
 		},
 
 		{
 			module: "weather",
-			position: "bottom_center",
+			position: "top_right",
 			config: {
 				type: "forecast",
 				weatherProvider: "ukmetoffice",
 				apiBase: "http://datapoint.metoffice.gov.uk/public/data/val/wxfcs/all/json/",
-				locationID: 350153, //Ascot http://datapoint.metoffice.gov.uk/public/data/val/wxfcs/all/json/sitelist?key=2acecf0e-fb12-4870-b1e0-975b728172f7
-				apiKey: "2acecf0e-fb12-4870-b1e0-975b728172f7", // met office datapoints, neilstjscott account
+				locationID: 350153, //Ascot 
+				apiKey: "met office datapoints key", // met office datapoints key
 			}
 		},
 		{
@@ -87,8 +94,8 @@ var config = {
 			config: {
 				feeds: [
 					{
-							title: "BBC UK",
-							url: "https://feeds.bbci.co.uk/news/uk/rss.xml",
+						title: "BBC UK",
+						url: "https://feeds.bbci.co.uk/news/uk/rss.xml",
 					},
 
 					{

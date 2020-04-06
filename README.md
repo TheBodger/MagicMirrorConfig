@@ -27,6 +27,9 @@ install MagicMirror2 from https://docs.magicmirror.builders/getting-started/inst
   </li>
   <ul>
   <li>https://github.com/Elaniobro/MMM-stocks and followed the instructions to obtain a key</li>
+    <ul>
+  <li>https://github.com/cowboysdude/MMM-History and followed the instructions to install it</li>
+  </ul>
   </ul>
 </ol>  
 
