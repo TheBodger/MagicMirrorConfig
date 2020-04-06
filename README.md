@@ -26,6 +26,23 @@ install MagicMirror2 from https://docs.magicmirror.builders/getting-started/inst
     make sure that you have also installed these modules for the full effect:
   </li>
   <ul>
-  <li></li>
+  <li>https://github.com/Elaniobro/MMM-stocks and followed the instructions to obtain a key</li>
   </ul>
 </ol>  
+
+```bash
+cd ~/Magicmirror
+cd config/
+git clone https://github.com/TheBodger/MagicMirrorConfig
+./setup.sh
+```
+
+to revert to the saved config uses this command
+
+
+```bash
+cd ~/Magicmirror
+cd config/
+./revert.sh
+```
+
