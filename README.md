@@ -10,7 +10,7 @@ A basic config for magic mirror with some instructions on usage which should sho
 To use,
 <ol>
 <li>
-install MagicMirror2 from https://docs.magicmirror.builders/getting-started/installation.html, 
+install MagicMirror2 using instructions from https://docs.magicmirror.builders/getting-started/installation.html, 
 </li>
   <li>
     note where you have installed the magicmirror to, the default is in your home directory
