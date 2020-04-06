@@ -1,7 +1,12 @@
 # MagicMirrorConfig
 
-A basic config for magic mirror with some instructions on usage
+A basic config for magic mirror with some instructions on usage which should show a scnree similar to this:
 
+## Screenshot
+
+![Technojam Config Screenshot](screenshot.bmp)
+
+##Installation and Usage
 To use,
 <ol>
 <li>
