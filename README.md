@@ -31,10 +31,11 @@ install MagicMirror2 using instructions from https://docs.magicmirror.builders/g
     make sure that you have also installed these modules for the full effect:
   </li>
   <ul>
-  <li>https://github.com/Elaniobro/MMM-stocks and followed the instructions to obtain a key</li>
   <li>https://github.com/cowboysdude/MMM-History and followed the instructions to install it</li>
   </ul>
 </ol>  
+
+to install and setup this config for your magic mirror
 
 ```bash
 cd ~/Magicmirror
@@ -43,7 +44,7 @@ git clone https://github.com/TheBodger/MagicMirrorConfig
 ./setup.sh
 ```
 
-to revert to the saved config uses this command
+to revert to the saved config uses these command
 
 
 ```bash
