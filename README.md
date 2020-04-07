@@ -38,10 +38,11 @@ install MagicMirror2 using instructions from https://docs.magicmirror.builders/g
 to install and setup this config for your magic mirror
 
 ```bash
-cd ~/MagicMirror
-cd config/
+cd ~/MagicMirror/config/
 git clone https://github.com/TheBodger/MagicMirrorConfig
 cd MagicMirrorConfig/
+sudo chmod 777 setup.sh
+sudo chmod 777 revert.sh
 ./setup.sh
 ```
 
