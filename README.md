@@ -59,8 +59,7 @@ to make sure you have the latest version of the config, if you have already down
 ```bash
 cd ~/MagicMirror/config/
 sudo rm MagicMirrorConfig/*.sh
-cd MagicMirrorConfig/
 git pull
-sudo chmod 777 setup.sh
-sudo chmod 777 revert.sh
+sudo chmod 777 MagicMirrorConfig/setup.sh
+sudo chmod 777 MagicMirrorConfig/revert.sh
 ```
