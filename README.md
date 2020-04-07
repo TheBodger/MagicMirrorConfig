@@ -35,7 +35,7 @@ install MagicMirror2 using instructions from https://docs.magicmirror.builders/g
   </ul>
 </ol>  
 
-to install and setup this config for your magic mirror
+to install and setup this config for your magic mirror use these commands (copy and paste into your terminal window on the PI)
 
 ```bash
 cd ~/MagicMirror/config/
@@ -46,7 +46,7 @@ sudo chmod 777 revert.sh
 ./setup.sh
 ```
 
-to revert to the saved config uses these command
+to revert to the saved config, use these commands
 
 
 ```bash
@@ -54,3 +54,12 @@ cd ~/MagicMirror/config/MagicMirrorConfig/
 ./revert.sh
 ```
 
+to make sure you have the latest version of the config, if you have already downloaded it then use these commands
+
+```bash
+cd ~/MagicMirror/config/MagicMirrorConfig/
+sudo rm *.sh
+git pull
+sudo chmod 777 setup.sh
+sudo chmod 777 revert.sh
+```
