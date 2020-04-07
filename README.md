@@ -41,6 +41,7 @@ to install and setup this config for your magic mirror
 cd ~/Magicmirror
 cd config/
 git clone https://github.com/TheBodger/MagicMirrorConfig
+cd MagicMirrorConfig/
 ./setup.sh
 ```
 
@@ -48,8 +49,7 @@ to revert to the saved config uses these command
 
 
 ```bash
-cd ~/Magicmirror
-cd config/
+cd ~/Magicmirror/config/MagicMirrorConfig/
 ./revert.sh
 ```
 
