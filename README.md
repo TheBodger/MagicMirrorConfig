@@ -41,8 +41,8 @@ to install and setup this config for your magic mirror use these commands (copy 
 cd ~/MagicMirror/config/
 git clone https://github.com/TheBodger/MagicMirrorConfig
 cd MagicMirrorConfig/
-sudo chmod 777 setup.sh
-sudo chmod 777 revert.sh
+sudo chmod +x setup.sh
+sudo chmod +x revert.sh
 ./setup.sh
 ```
 
