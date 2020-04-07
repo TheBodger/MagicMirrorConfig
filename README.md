@@ -57,8 +57,9 @@ cd ~/MagicMirror/config/MagicMirrorConfig/
 to make sure you have the latest version of the config, if you have already downloaded it then use these commands
 
 ```bash
-cd ~/MagicMirror/config/MagicMirrorConfig/
-sudo rm *.sh
+cd ~/MagicMirror/config/
+sudo rm MagicMirrorConfig/*.sh
+cd MagicMirrorConfig/
 git pull
 sudo chmod 777 setup.sh
 sudo chmod 777 revert.sh
