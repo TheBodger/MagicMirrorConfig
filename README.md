@@ -48,15 +48,7 @@ sudo chmod 777 revert.sh
 
 to revert to the saved config, use these commands
 
-
 ```bash
 cd ~/MagicMirror/config/MagicMirrorConfig/
 ./revert.sh
-```
-
-to make sure you have the latest version of the config, if you have already downloaded it then use these commands
-
-```bash
-cd ~/MagicMirror/config/MagicMirrorConfig/
-git pull
 ```
