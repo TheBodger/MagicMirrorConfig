@@ -2,5 +2,5 @@
 #
 #
 
-sudo cp config.js config.js.technojam.backup
-sudo cp config.js.technojam config.js
+sudo cp ../config.js config.js.technojam.backup
+sudo cp config.js.technojam ../config.js
