@@ -13,10 +13,10 @@ To use,
 install MagicMirror2 using instructions from https://docs.magicmirror.builders/getting-started/installation.html, 
 </li>
   <li>
-    note where you have installed the magicmirror to, the default is in your home directory
+    note where you have installed the magicmirror to and its actual name, all commands are case sensitive, the default is in your home directory
   </li>
   <li>
-    cd to the install directory >> cd ~/Magicmirror or cd ~/magicmirror
+    cd to the install directory >> cd ~/MagicMirror or cd ~/magicmirror
   </li>
   <li>
     cd to the config directory >> cd config/
@@ -38,7 +38,7 @@ install MagicMirror2 using instructions from https://docs.magicmirror.builders/g
 to install and setup this config for your magic mirror
 
 ```bash
-cd ~/Magicmirror
+cd ~/MagicMirror
 cd config/
 git clone https://github.com/TheBodger/MagicMirrorConfig
 cd MagicMirrorConfig/
@@ -49,7 +49,7 @@ to revert to the saved config uses these command
 
 
 ```bash
-cd ~/Magicmirror/config/MagicMirrorConfig/
+cd ~/MagicMirror/config/MagicMirrorConfig/
 ./revert.sh
 ```
 
