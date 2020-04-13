@@ -52,7 +52,6 @@ cd ~/MagicMirror/config/MagicMirrorConfig/
 
 Troubleshooting:<BR><BR>
   <uL>
-    <li>Check which folder magicmirror was installed into to and its actual name. <BR>It may not be in the default directory.</li>
-    <li>if it isnt, and check the spelling, then rerun the commands after amendending the first cd command accordingly.</li>
-    <li>Remember, as all commands in unix are case sensitive so Magicmirror is not the same as MagicMirror. </li>
+    <li>Check which folder magicmirror was installed into. It may not be in the default directory.</li>
+    <li>Check the spelling, all commands in unix are case sensitive, so Magicmirror is not the same as MagicMirror.</li>
   </ul>
