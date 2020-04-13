@@ -6,20 +6,23 @@ A basic config for magic mirror with some instructions on usage which should sho
 
 ![Technojam Config Screenshot](screenshot.bmp)
 
-##Installation and Usage
-To use,
+##Installation and Usage <BR><BR>
+Overview, 
 <ol>
 <li>
-install MagicMirror2 using instructions from https://docs.magicmirror.builders/getting-started/installation.html, 
+install MagicMirror2 using instructions from https://docs.magicmirror.builders/getting-started/installation.html. You may need to look for alternative instructions if your PI is old and you had problems using the standard instructions.
 </li>
   <li>
-    note where you have installed the magicmirror to and its actual name, all commands are case sensitive, the default is in your home directory
+    note which folder magicmirror is installed into to and its actual name. All commands in unix are case sensitive so Magicmirror is not the same as MAgicMirror. If you use the instructions above, then the default install directory on a PI should be your home directory.
   </li>
   <li>
-    cd to the install directory >> cd ~/MagicMirror or cd ~/magicmirror
+    There are a set of commands below that you can use by copying and pasting them into the command line terminal on your computer.
   </li>
   <li>
-    cd to the config directory >> cd config/
+     go to the directory you installed then magic mirror into and then the config folder     
+  </li>
+  <li>
+    use the cd command to do this, it will look something like cd ~/MagicMirror/
   </li>
   <li>
     install this config: >> git clone https://github.com/TheBodger/MagicMirrorConfig
