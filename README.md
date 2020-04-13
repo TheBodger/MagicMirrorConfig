@@ -1,6 +1,6 @@
 # MagicMirrorConfig
 
-A basic config for magic mirror which shuld show a mirror similar to this:
+A basic config for magic mirror which should show a mirror similar to this:
 
 ## Screenshot
 
