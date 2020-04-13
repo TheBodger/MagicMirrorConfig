@@ -38,10 +38,10 @@ sudo chmod +x revert.sh
     This config includes the MMM-History module. To install it go to https://github.com/cowboysdude/MMM-History and follow the instructions
   </li>
  <li>
-Included in this download is a script to revert the config to a backup copy taken when the setup command is run
+Included in this package is a script to revert the config to a backup copy taken when the setup command was run
   </li>
   <li>
-to revert to the saved config, use these commands which assume that the initial installation directory is the default.
+To revert to the saved previous config, use these commands.
   </li>
  </ul>
 
@@ -52,6 +52,6 @@ cd ~/MagicMirror/config/MagicMirrorConfig/
 
 <br>Troubleshooting:<BR><BR>
   <uL>
-    <li> Check which folder magicmirror was installed into to and its actual name. <BR>It may not be in the default directory. <BR>All commands in unix are case sensitive so Magicmirror is not the same as MagicMirror. 
+    <li> Check which folder magicmirror was installed into to and its actual name. <BR>It may not be in the default directory.<BR>if it isnt, then amend the first cd command and run each line individually <BR>Check your spelling as all commands in unix are case sensitive so Magicmirror is not the same as MagicMirror. 
     </li>
   </ol>
