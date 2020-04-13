@@ -16,7 +16,12 @@ install MagicMirror2 using instructions from https://docs.magicmirror.builders/g
 If you use the instructions above, the default install directory on a PI should be your home directory and the instructions included will work ok.
   </li>
   <li>
-    Copying and paste these instructions into the command line terminal on your computer. they will run automattically, though you may need to press enter to get the final command to complete. if you see any error message, check on the troubleshooting details below.
+    Copy and paste these instructions into the command line terminal on your computer. 
+  </li>
+  <li>
+    They will run automatically, though you may need to press enter to get the final command to complete.</li> 
+  <li>
+  if you see any error messages, check on the troubleshooting section below.
   </li>
   </ul>
 
@@ -30,16 +35,23 @@ sudo chmod +x revert.sh
 ```
   <ul>
   <li>
-    The config includes the MMM-History module. To install it go to https://github.com/cowboysdude/MMM-History and followed the instructions
+    This config includes the MMM-History module. To install it go to https://github.com/cowboysdude/MMM-History and follow the instructions
   </li>
-  </ul>
-
-
-to revert to the saved config, use these commands
+ <li>
+Included in this download is a script to revert the config to a backup copy taken when the setup command is run
+  </li>
+  <li>
+to revert to the saved config, use these commands which assume that the initial installation directory is the default.
+  </li>
+ </ul>
 
 ```bash
 cd ~/MagicMirror/config/MagicMirrorConfig/
 ./revert.sh
 ```
 
-<br>Troubleshooting:<BR><BR><OL><li> Check which folder magicmirror was installed into to and its actual name. IT may not be in the default directory. All commands in unix are case sensitive so Magicmirror is not the same as MagicMirror. </li></ol>
+<br>Troubleshooting:<BR><BR>
+  <uL>
+    <li> Check which folder magicmirror was installed into to and its actual name. <BR>It may not be in the default directory. <BR>All commands in unix are case sensitive so Magicmirror is not the same as MagicMirror. 
+    </li>
+  </ol>
