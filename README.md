@@ -50,8 +50,9 @@ cd ~/MagicMirror/config/MagicMirrorConfig/
 ./revert.sh
 ```
 
-<br>Troubleshooting:<BR><BR>
+Troubleshooting:<BR><BR>
   <uL>
-    <li> Check which folder magicmirror was installed into to and its actual name. <BR>It may not be in the default directory.<BR>if it isnt, then amend the first cd command and run each line individually <BR>Check your spelling as all commands in unix are case sensitive so Magicmirror is not the same as MagicMirror. 
-    </li>
-  </ol>
+    <li>Check which folder magicmirror was installed into to and its actual name. <BR>It may not be in the default directory.</li>
+    <li>if it isnt, and check the spelling, then rerun the commands after amendending the first cd command accordingly.</li>
+    <li>Remember, as all commands in unix are case sensitive so Magicmirror is not the same as MagicMirror. </li>
+  </ul>
