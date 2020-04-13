@@ -10,16 +10,16 @@ A basic config for MagicMirror2 which, when installed, will display a mirror sim
 Overview, 
 <ul>
 <li>
-install MagicMirror2 using instructions from https://docs.magicmirror.builders/getting-started/installation.html. <BR>You may need to look for alternative instructions if your PI is old and you had problems using the standard instructions.
+Install MagicMirror2 using instructions from https://docs.magicmirror.builders/getting-started/installation.html. <BR>You may need to look for alternative instructions if your PI is old and you have problems using these standard instructions.
 </li>
   <li>
-If you use the instructions above, the default install directory on a PI should be your home directory and the instructions included will work ok.
+After succesfully using the instructions above, the install directory on the PI should be your home directory.
   </li>
   <li>
-    Copy and paste these instructions into the command line terminal on your computer. 
+    To install the new configuration files, copy and paste the instructions below into the command line terminal on your computer. 
   </li>
   <li>
-    They will run automatically, though you may need to press enter to get the final command to complete.</li> 
+    They should run automatically, though you may need to press enter to get the final command to complete.</li> 
   <li>
   if you see any error messages, check on the troubleshooting section below.
   </li>
