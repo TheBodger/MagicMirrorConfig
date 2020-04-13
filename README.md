@@ -21,7 +21,7 @@ After succesfully using the instructions above, the install directory on the PI 
   <li>
     They should run automatically, though you may need to press enter to get the final command to complete.</li> 
   <li>
-  if you see any error messages, check on the troubleshooting section below.
+  If you see any error messages, check on the troubleshooting section below.
   </li>
   </ul>
 
