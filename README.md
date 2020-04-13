@@ -16,7 +16,7 @@ Install MagicMirror2 using instructions from https://docs.magicmirror.builders/g
 After succesfully using the instructions above, the install directory on the PI should be your home directory.
   </li>
   <li>
-    To install the new configuration files, copy and paste the instructions below into the command line terminal on your computer. 
+    To install the new configuration files, copy and paste all the instructions below into the command line terminal on your computer. 
   </li>
   <li>
     They should run automatically, though you may need to press enter to get the final command to complete.</li> 
