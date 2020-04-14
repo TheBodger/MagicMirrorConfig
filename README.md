@@ -61,11 +61,9 @@ cd ~/MagicMirror/config/MagicMirrorConfig/
 git pull
 ```
  
-
 Troubleshooting:<BR><BR>
   <uL>
     <li>Check which folder magicmirror was installed into. It may not be in the default directory.</li>
     <li>Check the spelling, all commands in unix are case sensitive, so Magicmirror is not the same as MagicMirror.</li>
   </ul>
-  
-  <U> added this line to test GITHUB handling merging a new branch of a fork </U>
+
