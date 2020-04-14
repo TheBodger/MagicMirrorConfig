@@ -44,15 +44,18 @@ Included in this package is a script to revert the config to a backup copy taken
 To revert to the saved previous config, use these commands:
   </li>
   </ul>
+  
 ```bash
 cd ~/MagicMirror/config/MagicMirrorConfig/
 ./revert.sh
 ```
+
 <ul>
   <li>
     To update the version on your MagicMirror to the latest one available, use these commands:
   </li>
   </ul>
+  
   ```bash
 cd ~/MagicMirror/config/MagicMirrorConfig/
 git pull
